@@ -4,9 +4,9 @@ import cv2
 import pickle
 import face_recognition
 
-IMAGE_DIR = "C:\\Users\\james\\FaceChain\\data\\images\\james"
+IMAGE_DIR = "C:\\Users\\james\\FaceChain\\data\\images\\people\\james"
 ENCODING_FILE = "C:\\Users\\james\\FaceChain\\data\\encodings.pkl"
-FACE_DIR = "C:\\Users\\james\\FaceChain\\data\\data\\faces"
+FACE_DIR = "C:\\Users\\james\\FaceChain\\data\\faces"
 # Ensure the directories exist
 os.makedirs(FACE_DIR, exist_ok=True)
 
